@@ -2,48 +2,44 @@ import { IExperience } from '../component/experience/IExperience';
 
 const experience: IExperience.Payload = {
   disable: false,
-  disableTotalPeriod: false,
+  disableTotalPeriod: true,
   list: [
     {
-      title: 'Linux Foundation',
+      title: 'dktechin',
       positions: [
         {
-          title: 'System Engineer',
-          startedAt: '1996-05',
+          title: '공통 서비스 개발팀 / BE Developer',
+          startedAt: '2025-01',
           descriptions: [
-            'Steering Kernel patching and updates for various distributions',
-            'Automating deployment and integration processes for Linux servers',
-            'Spearheading initiatives to enhance Linux kernel security',
-            'Collaborating with global developers to coordinate code contributions',
+            '카카오 광고센터 어드민 운영',
+            '광고센터 BE API 개발 & 화면 개발',
+            'Kubernetes 기반 인프라 아키텍처 운영 & APM 활용 모니터링을 통한 성능 최적화',
+            '장애 대응 프로세스 수립 및 개발 가이드 작성',
+            '코드 리뷰와 기술 스터디를 통한 팀 내 전문성 및 협업 역량 강화',
           ],
-          skillKeywords: ['C', 'Linux', 'Kernel', 'Security', 'Automation'],
+          skillKeywords: [
+            'JAVA',
+            'Spring Boot',
+            'MySQL',
+            'Rabbit MQ',
+            'Jenkins',
+            'Kubernetes',
+            'Redis',
+            'Docker',
+            'Angular',
+          ],
         },
         {
-          title: 'System Engineer Intern',
-          startedAt: '1996-02',
-          endedAt: '1996-05',
+          title: 'AI 공통 플랫폼 팀 / BE Developer Intern',
+          startedAt: '2024-10',
+          endedAt: '2024-12',
           descriptions: [
-            'Assisted senior engineers in maintaining and updating kernel patches for Linux distributions',
-            'Supported deployment and integration tasks for Linux server environments',
-            'Conducted research on Linux kernel security practices and presented findings to the team',
+            '카카오 i 공지사항 서비스 이관',
+            'Golang -> Kotlin 컨버팅 및 인프라 요소 최적화',
+            '미사용 이미지 삭제 스케줄러 개발',
+            '일관성 있는 캐싱 및 무효화 정책 적용',
           ],
-          skillKeywords: ['C', 'Linux', 'Kernel', 'Support', 'Research'],
-        },
-      ],
-    },
-    {
-      title: 'Open Source Community',
-      positions: [
-        {
-          title: 'System Advocate and Developer',
-          startedAt: '2010-06',
-          endedAt: '2018-01',
-          descriptions: [
-            'Promoted the use and development of Linux globally.',
-            'Developed automated scripts to streamline system configuration.',
-            'Facilitated live patching systems, reducing downtime.',
-          ],
-          skillKeywords: ['Open Source', 'Linux', 'AWS', 'RDBMS'],
+          skillKeywords: ['Kotlin', 'Spring Boot', 'MySQL', 'Kubernetes', 'Docker'],
         },
       ],
     },

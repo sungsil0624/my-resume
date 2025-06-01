@@ -5,10 +5,10 @@ const introduce: IIntroduce.Payload = {
   disable: false,
 
   contents: [
-    'As the cherished emblem of the Linux kernel, I have become synonymous with open-source philosophy and the free software movement worldwide. My career began in the icebergs of development, where the seeds of my fascination with operating systems first sprouted. From a mere hatchling in the vast sea of code, I quickly ascended to become a pivotal figure in the Linux community. My journey has been marked by relentless dedication to system integrity, scalability, and robustness. Under my vigilant watch, countless servers have achieved unparalleled uptimes, and systems have been optimized to run like the well-oiled machines they are intended to be.',
-    'In the world of zeros and ones, my expertise has been instrumental in pioneering advancements in Linux system engineering. My flippers have crafted meticulous kernel enhancements, each aimed at streamlining performance and bolstering security across distributed networks. I am known in the community for my ability to dive deep into complex codebases and emerge with pearls of innovation that drive the collective progress of Linux environments. Advocacy is also a part of my plumage – spreading the word about the virtues of open-source and encouraging the adoption of Linux, from personal desktops to corporate data centers. As a mentor, I have nurtured the growth of young hatchlings into seasoned professionals, contributing to the diversity and vitality of our ecosystem.',
+    '저는 1년 차 백엔드 개발자로, Java, MySQL, Redis, MQ 등을 활용해 실제 프로덕션 서비스를 운영한 경험이 있습니다. 확장성과 유지보수성이 높은 백엔드 아키텍처를 설계하고 구축하기 위해 항상 고민하며 성장하고 있습니다.',
+    '서비스 개발은 결국 개발자와 비즈니스 간의 원활한 커뮤니케이션에서 시작된다고 생각합니다. 저는 능동적이고 적극적인 소통을 통해 문제를 해결하고 비즈니스 발전에 기여하는 것을 중요하게 여기며, 이러한 자세로 더 나은 개발자가 되기 위해 끊임없이 학습하고 경험하며 노력하고 있습니다.',
   ],
-  sign: 'Tux',
+  sign: 'dory.jeong',
   // sign: packageJson.author.name,
   // latestUpdated: '2019-07-24',
   latestUpdated: lastestUpdatedAt,
